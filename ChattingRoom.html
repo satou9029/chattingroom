@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Chatting Room for all device</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile.custom.theme.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.custom.structure.min.css">
+	<style>
+		#comments {
+			resize: none;
+		}
+		
+		#combox {
+			margin: 0 2%;
+		}
+		
+		#subbtn{
+			margin-top: 0;
+			float: right;
+			margin-right: 1%;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div data-role="page" id="index">
+		<div data-role="header" data-position="fixed">
+			<div data-inset="true" id="combox">
+				<textarea id="comments">Please enter your message here.</textarea>
+			</div>
+			<div>
+				<a class="ui-btn" id="subbtn">submit</a>
+			</div>
+		</div>
+
+		<div role="main" class="ui-content">
+			<ul>
+				<li>your message</li>
+			</ul>
+		</div>
+
+		<div data-role="footer">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<input type="submit" value="返回顶部（暂定）">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script>
+	</script>
+</body>
+
+</html>
